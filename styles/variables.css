@@ -2,3 +2,14 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+
+:root {
+  --theme-bg-image: url("../images/cover-image-dark.png");
+  --background-color: rgba(0, 0, 40, 1);
+  --accent-color: rgba(255, 0, 112, 1);
+  --accent-color-transparent: rgba(255, 0, 112, 0.4);
+  --main-title-color: rgba(219, 0, 255, 1);
+  --bg-color-title-decor: rgba(255, 0, 112, 1);
+  --text-block__heading-color: rgba(0, 0, 40, 1);
+  --text-block__paragraph-color: rgba(241, 178, 206, 1);
+}
