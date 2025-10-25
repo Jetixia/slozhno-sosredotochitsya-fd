@@ -29,6 +29,7 @@
     --text-block__heading-color: rgba(53, 52, 48, 1);
     --text-block__paragraph-color: rgba(53, 52, 48, 1);
   }
+  
   .header__decoration-lamp {
     display: none;
   }
