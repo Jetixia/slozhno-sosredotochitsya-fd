@@ -373,16 +373,13 @@
 
   .section-concentration-distractors {
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
   }
 
-  .section-concentration-distractors .section__title {
-    display: block;
+  .section-concentration-distractors > .section__title {
+    grid-column: 1 / -1;
     grid-row: 1;
-    width: auto;
-  }
-
-  .section-concentration-distractors :not(.section__title) {
-    grid-row: 2;
+    inline-size: 32%;
   }
 
   .footer {
